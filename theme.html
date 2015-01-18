@@ -29,6 +29,8 @@
     })();
     </script>
     {% endif %}
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/2013.03.11/hoverintent.min.js"></script>
   </head>
   <body{% if is_post or is_tag or is_page %} class="short-header"{% endif %}>
 
@@ -125,7 +127,7 @@
           {% for post in posts %}
           <div class="item">
             <h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
-            
+
             {% if post.photos %}
             {% for photo in post.photos %}
             {% if loop.index == 1 %}
