@@ -30,7 +30,6 @@
     </script>
     {% endif %}
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/2013.03.11/hoverintent.min.js"></script>
   </head>
   <body{% if is_post or is_tag or is_page %} class="short-header"{% endif %}>
 
@@ -267,6 +266,8 @@
     {{ footer_meta }}
 
     <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/2013.03.11/hoverintent.min.js"></script>
+    
     <script type="text/javascript">
       var cover = {% if site.cover_photo %}'{{ site.cover_photo }}'{% else %}"{{ assets('images/cover-photo-1.jpg') }}"{% endif %};
       (function(d, t) {
