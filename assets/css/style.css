@@ -48,7 +48,7 @@ a {
   -moz-transition: color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
-  color: #37cca2;
+  color: #FF440A;
 }
 a:hover {
   color: #0e3029;
@@ -94,7 +94,7 @@ a {
   color: #0e3029;
 }
 a:hover {
-  color: #37cca2;
+  color: #FF440A;
 }
 body {
   padding: 0;
@@ -280,7 +280,7 @@ header h1 a {
   color: #ffffff;
 }
 header h1 a:hover {
-  color: #37cca2;
+  color: #FF440A;
 }
 header ul {
   text-align: right;
@@ -302,12 +302,12 @@ header ul li a {
   color: #ffffff;
 }
 header ul li a:hover {
-  color: #37cca2;
+  color: #FF440A;
 }
 header ul li a:hover,
 header ul li a.active {
-  color: #37cca2;
-  border-bottom: 2px solid #37cca2;
+  color: #FF440A;
+  border-bottom: 2px solid #FF440A;
 }
 header .overlay {
   position: absolute;
@@ -527,7 +527,7 @@ body.short-header header {
   font-size: 0.85rem;
 }
 .bio .user-avatar-hover ul li a:hover {
-  color: #37cca2;
+  color: #FF440A;
 }
 .bio.doHover .user-avatar img {
   -moz-opacity: 0.8;
@@ -588,7 +588,7 @@ footer i {
 }
 footer a:hover,
 footer i:hover {
-  color: #37cca2;
+  color: #FF440A;
 }
 footer i {
   font-size: 1.1rem;
@@ -654,7 +654,7 @@ a.btn.btn-mini:hover {
   margin-bottom: 25px;
 }
 .post a.back:hover span {
-  color: #37cca2;
+  color: #FF440A;
 }
 .post .post-content a {
   text-decoration: underline;
@@ -845,7 +845,7 @@ a.btn.btn-mini:hover {
   font-size: 0.9rem;
 }
 .post-tags li a:hover {
-  background-color: #37cca2;
+  background-color: #FF440A;
 }
 .post-author {
   cursor: default;
@@ -888,7 +888,7 @@ a.btn.btn-mini:hover {
   font-size: 0.85rem;
   font-family: 'Roboto';
   font-weight: 400;
-  color: #37cca2;
+  color: #FF440A;
 }
 .post-options {
   width: 50%;
@@ -1122,7 +1122,7 @@ div.posts h3 a {
   color: #0e3029;
 }
 div.posts h3 a:hover {
-  color: #37cca2;
+  color: #FF440A;
 }
 div.posts h3 a.like {
   position: absolute;
@@ -1135,10 +1135,10 @@ div.posts h3 a.like span {
   color: #afb7b5;
 }
 div.posts h3 a.like:hover {
-  color: #37cca2;
+  color: #FF440A;
 }
 div.posts h3 a.like:hover span {
-  color: #37cca2;
+  color: #FF440A;
 }
 h3.tag-header {
   padding-bottom: 50px;
@@ -1170,10 +1170,10 @@ h3.tag-header {
   color: #afb7b5;
 }
 .pagination a:hover {
-  color: #37cca2;
+  color: #FF440A;
 }
 .pagination a:hover span {
-  color: #37cca2;
+  color: #FF440A;
 }
 .pagination .prev {
   float: left;
